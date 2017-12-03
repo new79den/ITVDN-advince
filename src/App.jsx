@@ -1,9 +1,13 @@
 import React from "react"
-import ReactDOM from 'react-dom';
+import ReactDOM from 'react-dom'
+import New from './new.component'
+import './style.scss';
 
 function App() {
 
-    return(<h1>Test!</h1> )
+    return(<div>
+        <New/>
+    </div> )
 }
 
 ReactDOM.render(<App/>, document.querySelector('#root'));
